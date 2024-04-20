@@ -1,0 +1,50 @@
+.VendingMachine {
+  display: flex;
+  height: 95vh;
+  width: 95vw;
+  justify-content: space-around;
+}
+
+.VendingMachine-msg {
+  height: 20vh;
+  width: 25vw;
+  background-color: rgba(230, 172, 172, 0.719);
+  border-radius: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.VendingMachine-text {
+  font-size: 50px;
+  font-weight: bolder;
+  color: purple;
+  text-align: center;
+  margin: 0;
+  cursor: default;
+}
+
+.VendingMachine-items {
+  height: 50vh;
+  width: 20vw;
+  background-color: rgba(230, 172, 172, 0.719);
+  border-radius: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.VendingMachine-link {
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  color: purple;
+  margin: 0.5em;
+  cursor: pointer;
+}
